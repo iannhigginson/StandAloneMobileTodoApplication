@@ -1,0 +1,45 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+      loaded="mainPageLoaded"
+      class="page">
+
+ <Page.actionBar>
+
+  <ActionBar title=""
+             android.iconVisibility="always"
+             class="action-bar">
+
+   <ActionItem  class="menuItem"
+                text="Add"
+                tap="add" />
+
+<!--<ActionItem  class="menuItem"
+                text="Edit"
+                tap="{{ Edit }}" />-->
+
+   <ActionItem  class="menuItem"
+                text="Exit"
+                tap="exitThis" />
+  </ActionBar>
+
+ </Page.actionBar>
+
+ <StackLayout style="padding: 25px;">
+
+  <!--<Label text="ToDo List"
+         class="h2 text-center stdtxt"
+         textWrap="true" />-->
+
+  <ScrollView  orientation="vertical" height="800">
+
+   <StackLayout id="layout">
+
+    <Label text=" "
+           class="text-center stdtxt" />
+
+   </StackLayout>
+
+  </ScrollView>
+
+ </StackLayout>
+
+</Page>

@@ -1,0 +1,31 @@
+{
+  "name": "todo",
+  "main": "app.js",
+  "version": "7.0.3",
+  "author": "iannhigginson",
+  "description": "A simple offline standalone todo list",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "Todo"
+  ],
+  "repository": "https://github.com/iannhigginson/todo",
+  "bugs": {
+    "url": "https://github.com/iannhigginson/todo/issues"
+  },
+  "homepage": "https://github.com/iannhigginson/todo",
+  "dependencies": {
+    "@nativescript/core": "~7.0.0",
+    "@nativescript/theme": "~2.3.0",
+    "nativescript-exit": "^1.0.1",
+    "nativescript-toast": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nativescript/android": "7.0.1",
+    "@nativescript/webpack": "~3.0.0"
+  },
+  "private": "true",
+  "readme": "README.md"
+}
