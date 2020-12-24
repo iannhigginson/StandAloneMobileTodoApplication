@@ -162,9 +162,7 @@ function editPageLoaded(args) {
    }
    let fileContent = JSON.stringify(todo);
    file.writeText(fileContent).then(() => {
-    let toast = Toast.makeText("Save This ToDo...");
-
-    toast.show();
+    Toast.makeText("Save This ToDo...").toast.show();
     page.frame.navigate("list/list");
    }, (error) => {
     console.log('ERROR=> ' + error);
