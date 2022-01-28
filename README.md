@@ -1,2 +1,3 @@
 # todo
-A simple offline standalone todo list
+
+A simple offline standalone mobile todo list application
